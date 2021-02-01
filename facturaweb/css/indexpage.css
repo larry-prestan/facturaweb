@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+
+}
+
+#rootcontainer{
+    border: 1px solid;
+    width: 700px;
+    padding: 1%;
+}
