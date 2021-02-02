@@ -4,11 +4,90 @@
 }
 
 body{
-
+background-color: lightcyan;
 }
 
 #rootcontainer{
     border: 1px solid;
-    width: 700px;
+    width: 800px;
     padding: 1%;
+    background-color: white;
+}
+
+#tulogo{
+    width: 100px;
+}
+.datos-empresa{
+    padding-top: 3%;
+    line-height: 2%;
+}
+#nofactura{
+    font-weight: bold;
+    color: red;
+}
+#cedula{
+    width: 100%;
+    border: none;
+    outline: none;
+    text-align: center;
+    background-color: lightblue;
+    color: blue;
+    font-weight: bold;
+}
+#fechaexp,#fechaven,#tipopago{
+    width: 100%;
+    outline: none;
+    border: none;
+    background-color: lightblue;
+}
+#nombre,#direccion,#telefono{
+    width: 100%;
+}
+#additemrow .col{
+    text-align: center;
+}
+#btnadditem{
+    border: none;
+    outline: none;
+}
+#btnadditem img{
+    width: 35px;
+}
+#descripcion,#cantidad,#valor{
+    width: 100%;
+    text-align: center;
+    border: none;
+    outline: none;
+    background-color: lightblue;
+}
+
+#textodetalle{
+    visibility: hidden;
+}
+.row-table{
+    padding: 2%;
+}
+table{
+    text-align: center;
+}
+.row-totales .col{
+    text-align: center;
+}
+#totalfactura{
+    text-align: center;
+    border: none;
+    outline: none;
+    font-weight: bold;
+    color: red;
+    background-color: lightblue;
+}
+.col-avisolegal,.col-avisolegal2,.col-resoluciondian{
+    font-size: 12px;
+}
+
+.rowpiedefactura{
+    margin-top: -20%;
+}
+.row-firmas{
+    visibility: hidden;
 }
