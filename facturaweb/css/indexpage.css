@@ -16,6 +16,8 @@ background-color: lightcyan;
 
 #tulogo{
     width: 100px;
+    height: 100px;
+    margin-top: 3%;
 }
 .datos-empresa{
     padding-top: 3%;
